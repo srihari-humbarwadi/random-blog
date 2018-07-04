@@ -1,0 +1,27 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title> random blog</title>
+		<!-- Compiled and minified CSS -->
+    	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    	<!-- Compiled and minified JavaScript -->
+    	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+    </head>
+    <body>
+    	<header class="container center-align">
+    		<h1> Srihari's random blog </h1>
+    	</header>
+
+    	<div class="container">
+    		{% block content %}
+    		{% endblock %}
+    	</div>
+    	<br>
+    	<a style="display: block;" href="/admin" class="center-align">Admin login</a>
+    </body>
+</html>
